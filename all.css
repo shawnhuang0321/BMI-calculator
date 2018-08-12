@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+  background-color: #424242; }
+
+.inputArea {
+  margin: 0 10% 50px 10%; }
+  .inputArea h2 {
+    color: #FFD366;
+    font-size: 2rem; }
+  .inputArea input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #FFD366;
+    background-color: grey;
+    color: #eaeaea;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px; }
+    .inputArea input::placeholder {
+      color: #eaeaea; }
+
+.inputBtn button {
+  width: 117px;
+  height: 117px;
+  background-color: #FFD366;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  cursor: pointer; }
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center; }
+  .container ul {
+    list-style: none; }
+
+.status p {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.BMI p, .tall p, .fat p, .day p {
+  font-size: 1.3rem; }
+
+.BMI span, .tall span, .fat span, .day span {
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+.personInfo {
+  box-shadow: 0 1px 6px 2px #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  position: relative;
+  margin: 30px 0; }
+  .personInfo:hover {
+    box-shadow: 1px 2px 9px 3px #d9d9d9; }
+
+.cancel {
+  font-size: 30px;
+  text-decoration: none;
+  background: #eaeaea;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -10px; }
+  .cancel:hover {
+    background: #424242;
+    color: #eaeaea; }
+
+footer {
+  background-color: #FFD366;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px 0; }
+
+.BMIlv1 {
+  border-left: 10px solid #86D73F; }
+
+.BMIlv2 {
+  border-left: 10px solid #31BAF9; }
+
+.BMIlv3 {
+  border-left: 10px solid #FF982D; }
+
+.BMIlv4 {
+  border-left: 10px solid #FF6C03; }
+
+.BMIlv5 {
+  border-left: 10px solid #FF1200; }

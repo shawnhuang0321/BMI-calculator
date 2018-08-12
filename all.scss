@@ -1,0 +1,133 @@
+$color-yellow: #FFD366;
+$color-grey: #424242;
+$color-white: #eaeaea;
+$fz13: 1.3rem;
+$fz15: 1.5rem;
+$fz16: 1.6rem;
+$fwBold: bold;
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    background-color: $color-grey;
+}
+
+.inputArea {
+    margin: 0 10% 50px 10%;
+    h2 {
+        color: $color-yellow;
+        font-size: 2rem;
+    }
+    input {
+        width: 250px;
+        height: 40px;
+        border: 2px solid $color-yellow;
+        background-color: grey;
+        color: $color-white;
+        font-size: $fz15;
+        border-radius: 5px;
+        padding: 5px;
+        &::placeholder {
+            color: $color-white;
+        }
+    }
+}
+
+.inputBtn {
+    button {
+        width: 117px;
+        height: 117px;
+        background-color: $color-yellow;
+        border-radius: 50%;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    ul {
+        list-style: none;
+    }
+}
+
+.status {
+    p {
+        font-size: $fz15;
+        font-weight: $fwBold;
+    }
+}
+
+.BMI, .tall, .fat, .day {
+    p {
+        font-size: $fz13;
+    }
+    span {
+        font-size: $fz16;
+        font-weight: $fwBold;
+    }
+}
+
+.personInfo {
+    box-shadow: 0 1px 6px 2px $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: relative;
+    margin: 30px 0;
+    &:hover {
+        box-shadow: 1px 2px 9px 3px #d9d9d9;
+    }
+}
+
+.cancel {
+    font-size: 30px;
+    text-decoration: none;
+    background: $color-white;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    &:hover {
+        background: $color-grey;
+        color: $color-white;
+    }
+}
+
+footer {
+    background-color: $color-yellow;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+
+.BMIlv1 {
+    border-left: 10px solid #86D73F;
+}
+.BMIlv2 {
+    border-left: 10px solid #31BAF9;
+}
+.BMIlv3 {
+    border-left: 10px solid #FF982D;
+}
+.BMIlv4 {
+    border-left: 10px solid #FF6C03;
+}
+.BMIlv5 {
+    border-left: 10px solid #FF1200;
+}
